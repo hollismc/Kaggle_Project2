@@ -14,7 +14,7 @@ library(tidyverse)
 library(ggplot2)
 library(readr)
 ```
-##  Downlaod Data 
+##  Download Data 
 ```{r}
 plastpro <- read_csv("archive-2/global-plastics-production.csv")
 mismanplast <- read_csv("archive-2/mismanaged-waste-global-total.csv")
