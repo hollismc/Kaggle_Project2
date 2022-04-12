@@ -2,7 +2,9 @@
 title: "Kaggle_Project2"
 author: "Hollismc"
 date: '2022-04-05'
-output: html_document
+output:
+  html_document:
+    df_print: paged
 ---
 ##  Introduction  
   This dataset was gathered from Our World in Data from their article "Plastic Pollution". The authors inspiration for the data set was to show how much plastic we use per day.  This analysis will visualize how much plastic is produced and how much plastic we use and discard overall.  Then we ask what countries are above the mean in both mismanaged waste and per capita usage of plastic? While the authors don't exactly define what mismanaged waste is we surmise that it is the amount of plastic being dumped in the ocean.  They state that "More and more plastic is being generated every year and more of which is getting dumped into the ocean or is mishandled".
